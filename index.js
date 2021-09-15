@@ -1,5 +1,4 @@
-import { selection as d3selection } from 'd3-selection';
-import { select } from 'd3-selection';
+import { select, selection as d3selection } from 'd3-selection';
 
 const getFunction = type => function( data ) {
   if( typeof data === 'function' ) {
