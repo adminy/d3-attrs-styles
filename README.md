@@ -1,6 +1,7 @@
 # D3-attrs
 
 Allows to set attributes and styles for d3 selection as objects.
+Works fine with D3 v7 (d3-selection v3) and NodeJS v16.
 
 ## Install
 
