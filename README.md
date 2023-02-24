@@ -5,12 +5,12 @@ Works fine with D3 v7 (d3-selection v3) and NodeJS v16.
 
 ## Install
 
-`$ npm i d3-attrs -s`
+`yarn add -D @adminy/d3-attrs-styles`
 
 ## Use
 
 ```js
-import 'd3-attrs';
+import '@adminy/d3-attrs-styles'
 
 d3.select( 'svg' ).append( 'line' )
   .attrs({
