@@ -1,14 +1,10 @@
 {
-  "name": "d3-attrs",
-  "version": "1.0.4",
+  "name": "@adminy/d3-attrs-styles",
+  "version": "1.0.0",
   "description": "Attributes and styles as object for D3-selection",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/frolovfsoft/d3-attrs.git"
   },
   "keywords": [
     "d3",
@@ -16,13 +12,16 @@
     "attrs",
     "styles"
   ],
-  "author": "Vitaliy Frolov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/frolovfsoft/d3-attrs/issues"
-  },
-  "homepage": "https://github.com/frolovfsoft/d3-attrs",
   "dependencies": {
     "d3-selection": "3"
   }
+  "author": "Marin Bivol <marin.bivol@fourtheorem.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "homepage": "https://github.com/adminy/d3-attrs-styles#readme",
+  "bugs": { "url": "https://github.com/adminy/d3-attrs-styles/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/adminy/d3-attrs-styles.git" }
 }
