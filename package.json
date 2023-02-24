@@ -1,6 +1,6 @@
 {
   "name": "@adminy/d3-attrs-styles",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Attributes and styles as object for D3-selection",
   "main": "index.js",
   "scripts": {

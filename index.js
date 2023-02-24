@@ -4,7 +4,7 @@ import { transition } from 'd3-transition'
 const getFunction = type => function( data ) {
   if (typeof data === 'function') {
     return this.each(function() {
-      const cur = d3.select( this )
+      const cur = select( this )
       const obj = data.apply( this, arguments )
       for ( let attrName in obj )
         cur[ type ]( attrName, obj[attrName] )
