@@ -14,7 +14,8 @@
   ],
   "dependencies": {
     "d3-selection": "3"
-  }
+  },
+
   "author": "Marin Bivol <marin.bivol@fourtheorem.com>",
   "license": "ISC",
   "publishConfig": {
