@@ -1,6 +1,6 @@
 {
   "name": "@adminy/d3-attrs-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Attributes and styles as object for D3-selection",
   "main": "index.js",
   "scripts": {
@@ -13,16 +13,21 @@
     "styles"
   ],
   "dependencies": {
-    "d3-selection": "3"
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1"
   },
-
   "author": "Marin Bivol <marin.bivol@fourtheorem.com>",
   "license": "ISC",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/",
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "homepage": "https://github.com/adminy/d3-attrs-styles#readme",
-  "bugs": { "url": "https://github.com/adminy/d3-attrs-styles/issues" },
-  "repository": { "type": "git", "url": "git+https://github.com/adminy/d3-attrs-styles.git" }
+  "bugs": {
+    "url": "https://github.com/adminy/d3-attrs-styles/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adminy/d3-attrs-styles.git"
+  }
 }
